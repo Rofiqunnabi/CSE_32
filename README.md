@@ -1,64 +1,82 @@
 # CSE 3-2 Academic Resource Hub
 
-A student-maintained collection of study materials, lab work, previous questions, and academic resources for **B.Sc. in Computer Science & Engineering (CSE), University of Rajshahi**.
+A student-maintained academic repository for **B.Sc. in Computer Science & Engineering (CSE), University of Rajshahi**.
 
-This repository is intended to keep semester resources organized in one place and make revision, lab preparation, and sharing easier.
+This repository brings together course materials, lecture notes, lab code, practical resources, assignments, and previous examination questions for semester study and revision.
 
-## Repository Overview
+## Repository Map
 
-| Directory | Contents |
+| Directory | Purpose |
 |---|---|
-| `LAB/` | Lab-related materials arranged by course, including Computer Networks, Digital Signal Processing (DSP), Microprocessor & Assembly Language (MAL), and Operating Systems. |
-| `Lab previous question/` | Previous lab questions and question collections, including DSP, Computer Networks, Operating Systems, MAL, and combined lab-question resources. |
-| `ru_std/` | Course-wise study resources for Computer Networks, Digital Signal Processing, Microprocessor & Microcontroller, Operating Systems, and Project Planning & Management. |
-| `my/` | Personal notes and organized study materials for subjects such as CN, DSP, Microprocessor, Operating Systems, and Project Planning & Management. |
-| `yr qc rec/` | Question papers and academic resources collected from previous years. |
+| [`ru_std/`](ru_std/) | Subject-wise course materials, books, slides, notes, lab resources, and questions |
+| [`LAB/`](LAB/) | Practical and lab work for CN, DSP, MAL, and OS |
+| [`Lab previous question/`](Lab%20previous%20question/) | Previous lab question papers and combined question collections |
+| [`my/`](my/) | Personal subject-wise study materials and notes |
+| [`yr qc rec/`](yr%20qc%20rec/) | Previous-year question papers and academic resources |
 
-## Subjects Covered
+## Subjects
 
-- Computer Networks (CN)
-- Digital Signal Processing (DSP)
-- Microprocessor & Microcontroller
-- Microprocessor & Assembly Language
-- Operating Systems (OS)
-- Project Planning & Management (PPM)
-- Other related CSE lab and semester resources
+- [Computer Networks](ru_std/Computer%20Networks/)
+- [Digital Signal Processing](ru_std/Digital%20Signal%20Processing/)
+- [Microprocessor & Microcontroller](ru_std/MicroProcessor%20and%20MicroController/)
+- [Operating Systems](ru_std/Operating%20Systems/)
+- [Project Planning & Management](ru_std/Project%20Planning%20%26%20%20Management/)
 
-## What You May Find Here
+## Lab Resources
 
-- Lab codes, practical files, and related resources
-- Previous lab questions and question collections
-- Course notes, slides, and PDF materials
-- Previous-year and semester examination questions
-- Personal subject-wise study notes
+- [Computer Networks Lab](LAB/CN%20Lab/)
+- [Digital Signal Processing Lab](LAB/DSP%20Lab/)
+- [Microprocessor & Assembly Language Lab](LAB/MAL%20Lab/)
+- [Operating Systems Lab](LAB/OS/)
 
-> **Note:** The exact contents may change as resources are added, updated, or reorganized. Check the relevant folder for the latest available materials.
+## Resource Types
 
-## How to Use
+Depending on the subject and folder, you may find:
 
-1. Open the subject or resource category you need.
-2. Browse the corresponding folder.
-3. Open or download the available source files (PDF, code, notebook, archive, etc.).
-4. Verify the course, semester, and version before relying on a file for exam preparation.
+- Lecture notes, slides, books, and course study guides
+- Lab source code, notebooks, practical files, and supporting documents
+- Assignments and previous questions
+- Personal revision materials and reference PDFs
 
-## Contribution & Corrections
+Not every subject contains every resource type. Check the subject folder's README for its available materials.
 
-This is a student-maintained academic resource repository. If you find a broken file, incorrect subject placement, duplicate resource, or useful material to add, contributions and corrections are welcome.
+## How to Navigate
 
-When adding resources:
-- Use clear and descriptive file names.
-- Place files in the relevant subject folder.
-- Avoid uploading software installers, generated build files, IDE caches, or other unnecessary large binaries.
-- Do not upload copyrighted materials unless you have permission to share them.
+1. Start with `ru_std/` for regular course study materials.
+2. Open `LAB/` for practical work and source code.
+3. Use `Lab previous question/` and `yr qc rec/` for exam practice.
+4. Check `my/` for personal study collections.
+
+## Naming and Organization Convention
+
+To keep future additions consistent:
+
+- Use descriptive English names.
+- Prefer `lowercase-kebab-case` for new folder and file names.
+- Use the official subject name or a clear abbreviation (CN, DSP, MAL, OS, PPM).
+- Keep code, notes, slides, and question papers in clearly labelled folders where practical.
+- Avoid names such as `New folder`, `final-final`, or unexplained abbreviations.
+- Do not rename existing folders until their links and references have been checked.
+
+Existing folder names have been retained to avoid breaking current GitHub links.
+
+## Contributing
+
+When adding a resource:
+
+1. Place it in the correct subject directory.
+2. Use a descriptive filename.
+3. Add a short note to the relevant README when a new resource category is introduced.
+4. Avoid committing IDE caches, temporary files, generated build output, and unnecessary installers.
+5. Respect copyright and share only files you are permitted to distribute.
 
 ## Disclaimer
 
-The materials are shared for educational and study purposes. They are collected from different sources and may contain mistakes, outdated information, or incomplete content. Always cross-check important academic information with your course teacher and official materials.
+This is a student-maintained collection. Files may be incomplete, outdated, duplicated, or contain errors. Verify important academic information against the official course outline and instructor-provided materials.
 
 ## Repository
 
-**GitHub:** [Rofiqunnabi/CSE_32](https://github.com/Rofiqunnabi/CSE_32)
+[**Rofiqunnabi/CSE_32 on GitHub**](https://github.com/Rofiqunnabi/CSE_32)
 
 ---
-
-*Organized for learning, lab preparation, and semester revision.*
+*Collected and organized for learning, practical preparation, and semester revision.*
