@@ -1,0 +1,26 @@
+Masm Downlaod:
+DosBox: https://drive.google.com/file/d/1ITRhhuz2nEEPT5flSPT7ZZN5B3AVu8qV/view?usp=sharing
+8086 zip file: https://drive.google.com/file/d/1PBGxLt1v4hSa_6VMjb8KnjZtsxP2tbtL/view?usp=sharing
+
+8086 instructions: https://yassinebridi.github.io/asm-docs/8086_instruction_set.html#AAM
+
+Tutorial: https://www.youtube.com/watch?v=9ZkhU4ytrD4
+
+how to run code in dosbox (Put filename.asm file in 8086 folder)
+mount d d:\8086
+or mount c c:\8086
+
+d:
+or c:
+
+edit
+
+masm filename.asm
+
+press 3 enter
+
+link filename.obj
+
+press 3 enter
+
+filename.exe
