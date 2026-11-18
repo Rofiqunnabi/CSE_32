@@ -1,0 +1,8 @@
+MOV AX, 01H
+MOV CX, 06H
+L:
+MUL CX
+LOOP L
+HLT
+
+

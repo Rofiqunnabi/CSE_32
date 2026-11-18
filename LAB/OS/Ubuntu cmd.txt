@@ -1,0 +1,5 @@
+dir - directory
+cd-- go to folder
+ls- list of file/folder
+touch-- create file
+gcc filename -o 

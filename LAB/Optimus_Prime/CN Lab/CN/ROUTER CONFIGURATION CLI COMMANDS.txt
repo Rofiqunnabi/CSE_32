@@ -1,0 +1,25 @@
+ROUTER CONFIGURATION CLI COMMANDS:
+router>enable
+router>config t
+router(config) #int fa0/0
+router(config-if) #ip address 192.168.20.1 255.255.255.224
+router(config-if)#no shut
+exit 
+---------------------------------------
+router(config) #int fa1/0
+router(config-if) #ip address 192.168.10.1 255.255.255.224
+router(config-if)#no shut
+exit 
+--------------------------------------------
+direct ::
+
+en 
+conf t
+int fa0/0
+ip address 192.168.20.1 255.255.255.224
+no shut 
+exit
+int fa1/0
+ip address 192.168.10.1 255.255.255.224
+no shut 
+exit
